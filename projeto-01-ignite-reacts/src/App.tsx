@@ -16,9 +16,9 @@ const posts: post[] = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/diego3g.png',
-      name: 'Diego Fernandes',
-      role: 'CTO @ Rocketseat'
+      avatarUrl: 'https://github.com/renanlimaleite.png',
+      name: 'Renan Leite',
+      role: 'CTO'
     },
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋'},

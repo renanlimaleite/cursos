@@ -12,9 +12,9 @@ export function Sidebar() {
      />
 
     <div className={S.profile}>
-      <Avatar src="https://github.com/maykbrito.png" />
-      <strong>Diego Fernandes</strong>
-      <span>web developer</span>
+      <Avatar src="https://github.com/renanlimaleite.png" />
+      <strong>Renan</strong>
+      <span>developer</span>
     </div>
 
     <footer>
