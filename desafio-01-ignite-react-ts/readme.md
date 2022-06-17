@@ -1,31 +1,14 @@
 # This is a [React-ts](https://reactjs.org/) boilerplate using [Vite](https://vitejs.dev/)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT">
-</p>
+## Boilerplate: [Boilerplate](https://github.com/renanlimaleite/react-ts-vite)
+## This is a first challanger proposed by [Rocketseat](https://www.rocketseat.com.br/)
 
-## What is the root?
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [TypeScript](https://typescriptlang.org/)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
-- [Lint-Staged](https://github.com/okonet/lint-staged)
-
-## Getting Started
-- Make a copy:
-```
-npx degit renanlimaleite/react-ts-vite your-app
-```
-
-## Dev:
+## - Dev:
 - Enter in your project, eg: `cd your-app/` and Run the dev server:
 ```
 yarn dev
 ```
-## Prod
+## - Prod
 - To build the project:
 ```
 yarn build
