@@ -8,8 +8,6 @@
   --gray-600: #1a1a1a;
   --gray-700: #0d0d0d;
 
-  --bg-color: #454545;
-
   --purple: #8284FA;
   --purple-dark: #5E60CE;
 
@@ -27,5 +25,5 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--gray-600);
 }
