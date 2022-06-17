@@ -25,10 +25,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 67.5%
-}
-
 body {
   background-color: var(--bg-color);
 }
