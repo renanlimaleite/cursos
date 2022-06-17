@@ -1,0 +1,21 @@
+.noList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+  padding: 64px 24px;
+  color: var(--gray-300);
+  font-weight: 400;
+}
+
+.noList p {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.noList h2 {
+  margin-top: 16px;
+  font-size: 16px;
+}

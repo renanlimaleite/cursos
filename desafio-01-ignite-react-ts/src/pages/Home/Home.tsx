@@ -1,13 +1,16 @@
+import { Form } from '@/shared/Form';
 import { Header } from '@/shared/Header';
-import { Form } from '@/ui/Form';
-import { ListTodos } from '@/ui/ListTodos';
+import { ListTodos } from '@/shared/ListTodos';
+import S from './home.module.css';
 
 export function Home() {
   return (
-    <main>
+    <>
       <Header />
-      <Form />
-      <ListTodos />
-    </main>
+      <main className={S.content}>
+        <Form />
+        <ListTodos />
+      </main>
+    </>
   );
 }

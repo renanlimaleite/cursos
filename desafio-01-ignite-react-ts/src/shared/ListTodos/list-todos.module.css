@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.tasks {
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.finished {
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.tasks span,
+.finished span {
+  background-color: var(--gray-400);
+  color: var(--gray-100);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 2px 8px;
+}
+
+
+.listOfTasks {
+  margin-top: 24px;
+}
