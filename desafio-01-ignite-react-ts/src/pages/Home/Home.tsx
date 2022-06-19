@@ -7,7 +7,6 @@ import {
   FormEvent,
   useCallback,
   useEffect,
-  // eslint-disable-next-line prettier/prettier
   useState
 } from 'react';
 import { v4 as uuidv4 } from 'uuid';
@@ -43,8 +42,8 @@ export function Home() {
         {
           id: uuidv4(),
           title: newTodo,
-          completed: false,
-        },
+          completed: false
+        }
       ]);
       setNewTodo('');
     },
