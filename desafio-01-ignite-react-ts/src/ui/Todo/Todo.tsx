@@ -5,15 +5,25 @@ import S from './todo.module.css';
 
 type TodosProps = {
   handleDelete: () => void;
+  handleUpdate: () => void;
   title: string;
   checked: boolean;
 };
 
-export function Todo({ title, handleDelete, checked = false }: TodosProps) {
+export function Todo({
+  title,
+  handleDelete,
+  handleUpdate,
+  checked = false,
+}: TodosProps) {
   return (
     <div className={S.todos}>
-      {checked ? <img src={checkIconUrl} /> : <img src={uncheckIconUrl} />}
-      <p>{title}</p>
+      {checked ? (
+        <img src={checkIconUrl} onClick={handleUpdate} />
+      ) : (
+        <img src={uncheckIconUrl} onClick={handleUpdate} />
+      )}
+      <p className={checked ? S.checked : ''}>{title}</p>
       <button onClick={handleDelete}>
         <img src={trashIconUrl} alt="Trash icon" />
       </button>
