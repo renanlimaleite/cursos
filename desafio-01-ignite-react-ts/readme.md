@@ -1,4 +1,4 @@
-# This is a [React-ts](https://reactjs.org/) boilerplate using [Vite](https://vitejs.dev/)
+# This is a [React-ts](https://reactjs.org/) project using [Vite](https://vitejs.dev/) and a Boilerplate.
 
 ## Boilerplate: [Boilerplate](https://github.com/renanlimaleite/react-ts-vite)
 ## This is a first challanger proposed by [Rocketseat](https://www.rocketseat.com.br/)
