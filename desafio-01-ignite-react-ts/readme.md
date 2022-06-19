@@ -2,7 +2,7 @@
 ## This is a first challanger proposed by [Rocketseat](https://www.rocketseat.com.br/)
 
 ## Online em:
-[https://desafio-01-ignite-react-l58f2gpav-renanlimaleite.vercel.app/](https://desafio-01-ignite-react-l58f2gpav-renanlimaleite.vercel.app/)
+[https://desafio-01-ignite-react-ts-renanlimaleite.vercel.app/](https://desafio-01-ignite-react-ts-renanlimaleite.vercel.app/)
 ### - Dev:
 - Enter in your project, eg: `cd your-app/` and Run the dev server:
 ```
