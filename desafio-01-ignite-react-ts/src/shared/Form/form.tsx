@@ -1,10 +1,22 @@
+import { AddNewTodo, OnChangeTodoForm } from '@/pages/Home/Home';
 import S from './form.module.css';
 
-export function Form() {
+type FormProps = {
+  onNewTodo: AddNewTodo;
+  onChangeNewTodo: OnChangeTodoForm;
+  newTodo: string;
+};
+
+export function Form({ onNewTodo, onChangeNewTodo, newTodo }: FormProps) {
   return (
-    <form className={S.form}>
+    <form className={S.form} onSubmit={onNewTodo}>
       <div className={S.searchBox}>
-        <input type="text" placeholder="Adicione uma nova tarefa" />
+        <input
+          onChange={onChangeNewTodo}
+          value={newTodo}
+          type="text"
+          placeholder="Adicione uma nova tarefa"
+        />
         <button type="submit">Criar +</button>
       </div>
     </form>
