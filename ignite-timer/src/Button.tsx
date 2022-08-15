@@ -1,4 +1,4 @@
-import { ButtonContainer } from "./Button,styles";
+import { ButtonContainer } from "./Button.styles";
 
 interface ButtonProps {
   variant?: 'primary' | 'secondary' | 'danger' | 'success'
