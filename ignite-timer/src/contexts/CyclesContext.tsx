@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useState } from 'react'
+import { createContext, ReactNode, useContext, useState } from 'react'
 
 interface Cycle {
   id: string
@@ -25,7 +25,7 @@ interface CyclesContextType {
   interruptCurrentCycle: () => void
 }
 
-export const CyclesContext = createContext({} as CyclesContextType)
+export const CyclesContext = createContext<CyclesContextType | null>(null)
 
 interface CyclesContextProviderProps {
   children: ReactNode | ReactNode[]
@@ -104,4 +104,12 @@ export function CyclesContextProvider({
       {children}
     </CyclesContext.Provider>
   )
+}
+
+export function useCyclesContext() {
+  const context = useContext(CyclesContext)
+  if (!context) {
+    throw new Error('Você precisa usar o CyclesContextProvider')
+  }
+  return context
 }
